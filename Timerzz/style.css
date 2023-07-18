@@ -1,0 +1,57 @@
+body {
+    margin: 0%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f0ebd8;
+  }
+  
+  #title {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 50px 0px;
+    font-size: 34px;
+    background-color: #3e5c76;
+    height: 170px;
+    color: #f0ebd8;
+  }
+  
+  h2 {
+    font-size: 30px;
+    color: #748cab;
+    margin: 10px;
+  }
+  
+  p {
+    font-size: 30px;
+    color: #0d1321;
+  }
+  
+  #chronometer-container {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  button {
+    border-radius: 10px;
+    color: #f0ebd8;
+    border: 1px #3e5c76 solid;
+    background-color: #3e5c76;
+    font-size: 18px;
+  }
+  
+  button:hover {
+    color:#f0ebd8;
+    background-color: #0d1321;
+  }
+  
+  .chronometer {
+    border: 3px solid #3e5c76;
+    border-radius: 5px;
+    width: 220px;
+    height: 200px;
+  }

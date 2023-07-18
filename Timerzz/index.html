@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chronometers</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id=title>
+    <h1>TIMERZ</h1>
+  </div>
+  <div id="chronometer-container">
+  <div class="chronometer">
+    <h2>Learning</h2>
+    <p id="chronometer1">00:00:00</p>
+    <button onclick="startChronometer('chronometer1')">Start</button>
+    <button onclick="pauseChronometer('chronometer1')">Pause</button>
+    <button onclick="resetChronometer('chronometer1')">Reset</button>
+  </div>
+  <div class="chronometer">
+    <h2>Reading</h2>
+    <p id="chronometer2">00:00:00</p>
+    <button onclick="startChronometer('chronometer2')">Start</button>
+    <button onclick="pauseChronometer('chronometer2')">Pause</button>
+    <button onclick="resetChronometer('chronometer2')">Reset</button>
+  </div>
+  <div class="chronometer">
+    <h2>Other</h2>
+    <p id="chronometer3">00:00:00</p>
+    <button onclick="startChronometer('chronometer3')">Start</button>
+    <button onclick="pauseChronometer('chronometer3')">Pause</button>
+    <button onclick="resetChronometer('chronometer3')">Reset</button>
+  </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
